@@ -50,6 +50,6 @@ msg.attach(MIMEText(body, 'html'))
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
-server.login("kunal.saini@paytmmall.com", password)
+server.login("sainikunal90@gmail.com", password)
 server.sendmail(msg['From'],To,msg.as_string())
 server.quit()
